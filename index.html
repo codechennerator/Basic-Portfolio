@@ -2,30 +2,33 @@
 <html>
 	<head>
 		<title>My Bio</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 
 	<!--Body -->
 	<body>
-	
-		<!-- Header -->
-		<header>
-			<h1>Nathan Chen</h1>
-		</header>
+		<!-- Top Container -->
+		<div class = "top-container">
+			<!-- Header -->
+			<header>
+				<h1>Nathan Chen</h1>
+			</header>
 
-		<!--Navigation -->
-		
-		<nav>
-			<a href = "#about">Home</a>
-			<a href = "#portfolio">Portfolio</a>
-			<a href = "#contact">Contact</a>
-		</nav>
-
+			<!--Navigation -->
+			
+			<nav>
+				<a href = "#about">Home</a>
+				<a href = "#portfolio">Portfolio</a>
+				<a href = "#contact">Contact</a>
+			</nav>
+		</div>
 		<!-- Div for main content-->
 		<div class = "container">
 			<!--Section 1: Name, Picture, and Bio-->
-			<section id ="main-bio">
+			<section class= "left-container">
 				<h2>About Me</h2>
+
+				<hr>
 				
 				<img src = "assets/images/me_and_deer.jpg" id = "bio-image">
 				
@@ -34,26 +37,8 @@
 				<p>Duis erat arcu, porttitor at sagittis quis, lobortis eget augue. Fusce mollis vel felis ut sodales. Suspendisse hendrerit ornare diam at vestibulum. Sed at erat ante. Morbi ornare ipsum nulla, in pellentesque felis fringilla quis. Quisque laoreet tortor ut ex suscipit, quis bibendum ipsum blandit. Donec venenatis, purus id lobortis volutpat, orci ex eleifend nisi, ac volutpat libero orci at ligula. Mauris libero sapien, dictum eget accumsan ut, viverra pretium libero. Sed placerat velit et tortor ullamcorper, ut rutrum urna placerat. Proin finibus velit sed tortor efficitur, ut ornare dolor laoreet. Ut ut lacinia erat. Praesent sit amet velit facilisis, blandit odio eget, tempor mi. Fusce mauris nisi, tempus nec nisi ut, vestibulum semper tellus. Pellentesque semper ullamcorper erat.</p>
 			</section>
 			
-			<!--Section 2: Contact Info-->
-			<section id = "contact-info">
-				<h2>Contact Info</h2>
-				
-				<!-- Contact info, # used for place holder links. -->
-				<ul>
-					<li>
-						<b>Email: </b>
-						<a href = "chenl.nathan@gmail.com">chenl.nathan@gmail.com</a>
-					</li>
-					<li>
-						<b>Github: </b>
-						<a href = "https://github.com/codechennerator/student_bio" target = "_blank">codechennerator</a>
-					</li>
-					<li>
-						<b>Portfolio: </b>
-						<a href = "#">coming soon</a>
-					</li>
-				</ul>
-			</section>
+			<!--Section 2: Social Media Aside-->
+			<aside class= "sideBar">aside</aside>
 		</div>
 		
 		<!-- Footer -->
