@@ -8,8 +8,6 @@ body{
 }
 h1, h2{
 	font-family: 'Georgia', Times, Times New Roman, serif;
-}
-h1{
 	font-size: 28px;
 }
 header{
@@ -22,12 +20,12 @@ header{
 nav{
 	float: right;
 	font-size: 18px;
-	margin-right: 150px;
+	margin-right: 215px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
 a{
-	color: #ccc;
+	color: #777;
 	padding: 5px;
 	text-decoration: none;
 	font-weight: normal;
@@ -36,5 +34,43 @@ a{
 }
 .container{
 	clear: both;
-	background: linear-gradient(to bottom right, #D3D3D3, #F5F5F5);
+	background: linear-gradient(to bottom right, #EBEBEB, #F5F5F5);
+	padding-left: 150px;
+	padding-right: 215px;
+	overflow: auto;
+}
+.left-container, .sideBar{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #fff;
+	padding: 15px 40px 15px 40px;
+	border: 1px solid #ddd;
+}
+.left-container{
+	float: left;
+	width: 60%;
+}
+.sideBar{
+	float: right;
+	width: 270px;
+}
+#bio-image{
+	width: 200px;
+	float: left;
+	margin-right: 15px;
+}
+h2{
+	border-bottom: 3px solid #ddd;
+	padding-bottom: 19px;
+	color: #4aaaa5;
+}
+p{
+	color: #777;
+	font-size: 18px; 
+	line-height: 2em; 
+}
+.socialLink{
+	width: 60px;
+	height: 60px;
+	
 }
