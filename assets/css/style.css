@@ -20,7 +20,7 @@ header{
 nav{
 	float: right;
 	font-size: 18px;
-	margin-right: 215px;
+	margin-right: 200px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
@@ -30,7 +30,11 @@ a{
 	text-decoration: none;
 	font-weight: normal;
 	font-size: 22px;
+	border-right: 1px solid #777;
 	
+}
+nav a:last-of-type{
+	border-right: none;
 }
 .container{
 	clear: both;
@@ -48,7 +52,7 @@ a{
 }
 .left-container{
 	float: left;
-	width: 60%;
+	width: 55%;
 }
 .sideBar{
 	float: right;
@@ -70,7 +74,11 @@ p{
 	line-height: 2em; 
 }
 .socialLink{
-	width: 60px;
-	height: 60px;
+	width: 70px;
+	height: 70px;
+	padding-right: 20px;
 	
+}
+.socialLink:last-of-type{
+	padding-right: 5px;
 }
