@@ -25,15 +25,19 @@ nav{
 	padding-bottom: 25px;
 }
 a{
-	color: #777;
 	padding: 5px;
+	
+}
+.navItems{
+	border-right: 1px solid #777;
+	color: #777;
 	text-decoration: none;
 	font-weight: normal;
 	font-size: 22px;
-	border-right: 1px solid #777;
-	
+	padding-right: 8px;
+
 }
-nav a:last-of-type{
+.navItems:last-of-type{
 	border-right: none;
 }
 .container{
@@ -81,4 +85,47 @@ p{
 }
 .socialLink:last-of-type{
 	padding-right: 5px;
+}
+footer{
+	clear:both;
+	text-align: center;
+	background-color: #666;
+	color: #909090;
+	padding: 45px 5px 45px 5px;
+	border-top: 10px solid #4AAAA5;
+}
+
+label{
+	font-size: 22px;
+	color: #777;
+}
+input[type=text], textarea {
+    width: 97%;
+    padding: 12px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+.image_container{
+	display: inline-block;
+	margin: 25px;
+	position: relative; 
+	text-align: center;
+	color:white;
+	
+}
+.caption{
+	background-color: #4aaaa5;
+	font-size: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px; 
+	position: absolute;
+	width: 200px;
+	top: 125px;
+}
+.subButton{
+	background-color: #4aaaa5;
+	border: none;
+	padding: 15px 35px;
+	color: white;
+	font-size: 20px; 
 }
